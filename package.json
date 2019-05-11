@@ -1,0 +1,18 @@
+{
+    "name": "mandelbrot-set",
+    "version": "0.1.0",
+    "private": true,
+    "devDependencies": {
+        "parcel": "^1.12.3",
+        "prettier": "^1.17.0",
+        "sass": "^1.20.1",
+        "tslint": "^5.16.0",
+        "typescript": "^3.4.5"
+    },
+    "scripts": {
+        "prestart": "rm -rf dist",
+        "start": "parcel public/index.html",
+        "prebuild": "rm -rf dist",
+        "build": "parcel build public/index.html"
+    }
+}

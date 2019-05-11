@@ -1,0 +1,24 @@
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    background-color: #212121;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+canvas,
+img {
+    margin: auto;
+    max-width: 100%;
+}
